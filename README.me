@@ -1,0 +1,19 @@
+Vorraussetzung für das Chatprogramm ist npm und socket.io, express
+-> npm install
+-> npm i socket.io
+-> npm i express
+
+Die aussgabe der Anwendung erfolgt auf localhost:3000
+
+Das Chatprogramm kann auf drei verschiedene Arten gestartet werden:
+
+1.
+-> node server.js
+
+2.
+-> docker build -t chat .
+-> docker run -d --name chat -p 3000:3000 chat
+
+3.
+-> docker pull simon979797/chat
+-> docker run -d --name chat -p 3000:3000 chat
